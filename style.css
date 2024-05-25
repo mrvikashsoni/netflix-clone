@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  list-style: none;
+}
+body {
+  background-color: #232323;
+}
+/* ------------------------------------Hero section & nav section */
+.hero-section {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("./img/header-image.png");
+  background-size: cover;
+
+  width: 100%;
+  height: 44rem;
+  position: relative;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  /* border: 1px solid white; */
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+.nav-in-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 20px;
+  /* border: 1px solid red; */
+}
+
+.nav-in2 a {
+  text-decoration: none;
+  /* color: white; */
+  background-color: red;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 700;
+}
+.in1 a {
+  background-color: #0f0f0f;
+  border: 1px solid wheat;
+  font-weight: 400;
+}
+/* ------hero center */
+.hero-center {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 2rem;
+  align-items: center;
+}
+.hero-title h1 {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 900;
+}
+.input3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  /* border: 1px solid white; */
+}
+.email-input input {
+  border: 1px solid wheat;
+  background-color: #232323;
+  padding: 8px;
+  border-radius: 5px;
+  width: 120%;
+}
+.get-started {
+  margin-left: 50px;
+}
+/* ---------------------------------------------------------------------Enjoy on TV */
+.tv {
+  background-color: black;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  margin: 1% 0px;
+  justify-content: center;
+}
+/* ---------------------------------------------------------------------FAQ */
+.faq {
+  flex-direction: column;
+  /* border: 1px solid white; */
+  justify-content: space-around;
+  height: auto;
+}
+.faq-in1 {
+  width: 70%;
+  height: auto;
+  /* border: 1px solid white; */
+  margin: 2% 0%;
+}
+.faq-q {
+  background-color: #333333;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 100%;
+  height: 32%;
+  font-size: 2rem;
+  padding: 2% 2%;
+}
+.faq-in2 {
+  /* border: 1px solid wheat; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.faq-title {
+  margin: 10px 0px;
+}
+/* ---------------------------------------------------------Footer */
+.footer {
+  background-color: #0f0f0f;
+  padding: 2% 0%;
+}
+.footer-container {
+  width: 70%;
+  margin: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.in-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+}
+li {
+  margin-bottom: 5px;
+  font-size: small;
+}
+.in-4 {
+  margin-top: 2%;
+}
+/* ----------------------------------------------------------------The End */
